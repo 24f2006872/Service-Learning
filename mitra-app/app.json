@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "मित्र",
+    "slug": "mitra-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0D1117",
+    "android": {
+      "package": "com.mitra.hindi",
+      "permissions": ["RECORD_AUDIO", "INTERNET", "VIBRATE"]
+    },
+    "plugins": [
+      ["expo-av", {
+        "microphonePermission": "मित्र को आपकी आवाज़ सुनने की ज़रूरत है।"
+      }]
+    ]
+  }
+}
